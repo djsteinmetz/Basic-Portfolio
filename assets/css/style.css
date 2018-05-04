@@ -1,5 +1,10 @@
-h1 {
-    background-color: black;
+head {
+    text-decoration: black;
+    text-align: 0 auto;
     align-content: center;
-    color: whitesmoke;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
 }
