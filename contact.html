@@ -3,9 +3,11 @@
 <meta charset="UTF-16">
 
 <head>
+
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Contact</title>
+    
 </head>
 
 <body>
@@ -16,27 +18,36 @@
 
             <h1 id="logoName">DJ Steinmetz</h1>
 
-            <nav>About  |  Portfolio  |  Contact</nav>
+            <nav>
+                <a id="navAbout" href="about.html">About</a> 
+                <a id="navPortfolio" href="portfolio.html">Portfolio</a>
+                <a id="navContact" href="contact.html">Contact</a>
+            </nav>
+
         </div>
     
     </header>
 
     <section>
-        <h1>Contact</h1>
+        <h2>Contact</h2>
+
+        <form>
+
+                <label>Name</label>
+                <input type="text" placeholder="John Doe"><br/>
+        
+                <label>Email</label>
+                <input type="email" placeholder="example@gmail.com"><br/>
+
+                <label>Message</label>
+                <textarea type="text"></textarea><br/>
+
+                <button>Submit!</button>
+        
+        </form>
+
     </section>
 
-    <form>
-
-        <label>Name</label>
-        <input>
-
-        <label>Email</label>
-        <input>
-
-        <label>Message</label>
-        <textarea>Leave your message here!</textarea>
-
-    </form>
 
     <footer>
         <p id="copyright">Copyright &copy;</p>
