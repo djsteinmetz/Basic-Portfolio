@@ -189,7 +189,7 @@ button {
 
 .portfolioBox {
     box-sizing: border-box;
-    background-color: #dddddd;
+    background-image: url(http://via.placeholder.com/300x200);
     width: 300px;
     height: 200px;
     margin: 20px 40px 20px 0px;
@@ -197,7 +197,7 @@ button {
 }
 
 .portfolioBox:hover {
-    border: 5px solid #4aaaa5;
+    border: 1px solid #4aaaa5;
 }
 
 #row1, #row2 {
